@@ -10,7 +10,7 @@ class Employee:
         self.lastname = lastname
         self.pay = pay
         self.opis = opis
-        self.email = name + "." + lastname + "@gmail.com" # ovdje je greška što sam izbrisao bio + "@gmail.com"
+        self.email = name + "." + lastname + "@gmail.com" 
      
     def CheckAllEmails(self,filename, list_emails,count):
         file = open(filename, "r")
